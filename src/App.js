@@ -3,10 +3,19 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <h1>merhaba</h1>
-
-    </div>
+    <>
+    <nav><h1>LOGO</h1>
+     <ul>
+      <li>Main Page</li>
+      <li>Project</li>
+      <li>About Us</li>
+      <li>Contact</li>
+     </ul>
+    </nav>
+    <section className='backimage' >
+      
+    </section>
+    </>
   );
 }
 
