@@ -26,7 +26,7 @@ async function getdata(value){
    <div className='weathercondition' >
     <div className='search' >
     <input type="text" placeholder="Search a City ..." onChange={cityText}  />
-    <button className='btn btn-primary'  onClick={()=> getdata(cityinput)} >Search</button>
+    <button className='btn btn-info text-white'  onClick={()=> getdata(cityinput)} >Search</button>
     </div>
    {weatherData.map(item=>(
    <Weatherresult
